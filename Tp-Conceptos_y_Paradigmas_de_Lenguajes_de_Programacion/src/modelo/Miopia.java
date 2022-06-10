@@ -1,9 +1,9 @@
 package modelo;
 
-public class Miopia extends Enfermedad{
+public class Miopia extends Enfermedad {
 	private float gradoDerecho;
 	private float gradoIzquierdo;
-	
+
 	public Miopia(String enfermedad, float nivelDeRiesgo, float gradoDerecho, float gradoIzquierdo) {
 		super(enfermedad, nivelDeRiesgo);
 		this.gradoDerecho = gradoDerecho;
@@ -26,9 +26,8 @@ public class Miopia extends Enfermedad{
 		this.gradoIzquierdo = gradoIzquierdo;
 	}
 
-	
-	public float calcularRiesgo() {}
-	
-	
-	
+	public float calcularRiesgo() {
+		return 0;
+	}
+
 }

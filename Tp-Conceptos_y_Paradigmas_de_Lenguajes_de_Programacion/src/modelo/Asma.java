@@ -1,6 +1,6 @@
 package modelo;
 
-public class Asma extends Enfermedad{
+public class Asma extends Enfermedad {
 	private String tipo;
 
 	public Asma(String enfermedad, float nivelDeRiesgo, String tipo) {
@@ -15,12 +15,14 @@ public class Asma extends Enfermedad{
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Asma [tipo=" + tipo + "]";
 	}
 
-	public float calcularRiesgo() {}
-	
+	public float calcularRiesgo() {
+		return 0;
+	}
+
 }

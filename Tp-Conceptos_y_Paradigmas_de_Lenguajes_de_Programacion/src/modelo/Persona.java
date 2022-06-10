@@ -8,9 +8,9 @@ public class Persona {
 	private String apellido;
 	private int edad;
 	private List<Enfermedad> enfermedades;
-	
+
 	public Persona() {
-		
+
 	}
 
 	public Persona(String nombre, String apellido, int edad) {
@@ -52,8 +52,5 @@ public class Persona {
 	public void setEnfermedades(List<Enfermedad> enfermedades) {
 		this.enfermedades = enfermedades;
 	}
-	
-	
-	
-	
+
 }
